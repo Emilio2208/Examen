@@ -8,6 +8,10 @@
         <servlet-name>Busqueda</servlet-name>
         <servlet-class>Busqueda</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Resultado</servlet-name>
+        <servlet-class>Resultado</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Calculadora1</servlet-name>
         <url-pattern>/Calculadora1</url-pattern>
@@ -15,6 +19,10 @@
     <servlet-mapping>
         <servlet-name>Busqueda</servlet-name>
         <url-pattern>/Busqueda</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Resultado</servlet-name>
+        <url-pattern>/Resultado</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

@@ -1,3 +1,8 @@
+<%-- 
+    Document   : vista_calculadora
+    Created on : 11-feb-2019, 16:55:04
+    Author     : sheyladelao
+--%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -12,28 +17,28 @@
       <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h1>Calculadora</h1>
+                    <h1>Calculadora Shey</h1>
                     <form method="POST" action="Resultado">
                       
                          <div class="form-group">
-                         <label for="Numero">Numero 1 </label>
-                         <input type="number" class="form-control" id="nombre" name="número"  placeholder="Indique el número">
+                         <label for="Numero">Valor 1 </label>
+                         <input type="number" class="form-control" id="nombre" name="valor1"  placeholder="Indique el número">
                          </div>
                         
                         <div class="form-group">
-                         <label for="Numero">Numero 2 </label>
-                         <input type="number" class="form-control" id="nombre" name="número"  placeholder="Indique el número">
+                         <label for="Numero">Valor 2 </label>
+                         <input type="number" class="form-control" id="nombre" name="valor2"  placeholder="Indique el número">
                          </div>
                         
-                        <input type="radio" name="gender" value="Suma"> +<br>
-<input type="radio" name="gender" value="Resta"> - <br>
-<input type="radio" name="gender" value="Multiplicación"> * <br>
-<input type="radio" name="gender" value="División"> / <br>
+                        <input type="radio" name="opcion" value="1">+<br>
+<input type="radio" name="opcion" value="2">-<br>
+<input type="radio" name="opcion" value="3">*<br>
+<input type="radio" name="opcion" value="4">/<br>
 
                         
                         
                  <div class="form-group">
-                 <button type="submit" class="btn btn-primary">El resultado es =</button>
+                 <button type="submit" class="btn btn-primary">Calcular</button>
                  </div>
                  </form>
                 </div>
@@ -54,4 +59,5 @@
     $('.select2').select2();
 }); 
     </script>
+    
 </html>
